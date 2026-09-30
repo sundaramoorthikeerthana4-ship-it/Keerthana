@@ -1,5 +1,5 @@
 #keerthana project-main file
-form fastapi import FastAPI
+from fastapi import FastAPI
 app=FastAPI()
 @app.get("/team")
 def home():
